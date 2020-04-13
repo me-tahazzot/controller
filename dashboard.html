@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- panel shortcut icon -->
+    <link rel="shortcut icon" type="images/png" href="favicon.ico" sizes="80*80" />
+
+    <!-- panel stylesheets -->
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="res/dist/primary-v1.0.0.min.css" />
+    <link rel="stylesheet" type="text/css" href="res/dist/admin-v1.0.0.min.css" />
+
+
+</head>
+
+<body class="__application sidebar-face-one">
+
+
+    <!-- Start:: Mobile Header -->
+    <nav id="mobile-navbar">
+        <div class="top-navbar">
+            <a href="" class="mobile-brand">
+                <img src="res/logo.png" alt="" />
+            </a>
+            <ul class="mobile-navbar-list">
+                <li>
+                    <a href="javascript:void(0)">
+                        <div class="sidebar-toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <div class="mini-sidebar-toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End:: Mobile Header -->
+
+
+    <!-- Start:: header -->
+    <div id="navbar">
+        <div class="container reset-nav-container">
+            <div class="nav">
+                <div class="nav-controller">
+                    <a href="dashboard.html" class="brand-link">
+                        <img src="res/logo.png" alt="" class="brand" />
+                    </a>
+                    <ul class="nav-controller-ul">
+                        <a href="" class="nav-item active">
+                            <span class="fa fa-dashboard"></span>
+                            <span class="navbar-big-link">Dashboard</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span class="fa fa-eye"></span>
+                            <span class="navbar-big-link">Visit Website</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span class="fa fa-android"></span>
+                            <span class="navbar-big-link">App</span>
+                        </a>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <form action="">
+                        <input type="text" name="search" placeholder="Search" autocomplete="off" />
+                        <button type="submit">
+                            <span class="fa fa-search"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="nav-list">
+                    <ul class="nav-ul">
+                        <a href="" class="list-item active">
+                            <span>
+                                <svg viewBox="0 0 28 28" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv"
+                                    height="28" width="28">
+                                    <path
+                                        d="M17.5 23.979 21.25 23.979C21.386 23.979 21.5 23.864 21.5 23.729L21.5 13.979C21.5 13.427 21.949 12.979 22.5 12.979L24.33 12.979 14.017 4.046 3.672 12.979 5.5 12.979C6.052 12.979 6.5 13.427 6.5 13.979L6.5 23.729C6.5 23.864 6.615 23.979 6.75 23.979L10.5 23.979 10.5 17.729C10.5 17.04 11.061 16.479 11.75 16.479L16.25 16.479C16.939 16.479 17.5 17.04 17.5 17.729L17.5 23.979ZM21.25 25.479 17 25.479C16.448 25.479 16 25.031 16 24.479L16 18.327C16 18.135 15.844 17.979 15.652 17.979L12.348 17.979C12.156 17.979 12 18.135 12 18.327L12 24.479C12 25.031 11.552 25.479 11 25.479L6.75 25.479C5.784 25.479 5 24.695 5 23.729L5 14.479 3.069 14.479C2.567 14.479 2.079 14.215 1.868 13.759 1.63 13.245 1.757 12.658 2.175 12.29L13.001 2.912C13.248 2.675 13.608 2.527 13.989 2.521 14.392 2.527 14.753 2.675 15.027 2.937L25.821 12.286C25.823 12.288 25.824 12.289 25.825 12.29 26.244 12.658 26.371 13.245 26.133 13.759 25.921 14.215 25.434 14.479 24.931 14.479L23 14.479 23 23.729C23 24.695 22.217 25.479 21.25 25.479Z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+
+                        <a href="javascrpt:void(0)" class="list-item">
+                            <span>
+                                <svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry"
+                                    height="20" width="20">
+                                    <path
+                                        d="M7.847 23.488C9.207 23.488 11.443 23.363 14.467 22.806 13.944 24.228 12.581 25.247 10.98 25.247 9.649 25.247 8.483 24.542 7.825 23.488L7.847 23.488ZM24.923 15.73C25.17 17.002 24.278 18.127 22.27 19.076 21.17 19.595 18.724 20.583 14.684 21.369 11.568 21.974 9.285 22.113 7.848 22.113 7.421 22.113 7.068 22.101 6.79 22.085 4.574 21.958 3.324 21.248 3.077 19.976 2.702 18.049 3.295 17.305 4.278 16.073L4.537 15.748C5.2 14.907 5.459 14.081 5.035 11.902 4.086 7.022 6.284 3.687 11.064 2.753 15.846 1.83 19.134 4.096 20.083 8.977 20.506 11.156 21.056 11.824 21.986 12.355L21.986 12.356 22.348 12.561C23.72 13.335 24.548 13.802 24.923 15.73Z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="javascrpt:void(0)" class="list-item nav-search-toggler">
+                            <span>
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path d="M508.874,478.708L360.142,329.976c28.21-34.827,45.191-79.103,45.191-127.309c0-111.75-90.917-202.667-202.667-202.667
+			S0,90.917,0,202.667s90.917,202.667,202.667,202.667c48.206,0,92.482-16.982,127.309-45.191l148.732,148.732
+			c4.167,4.165,10.919,4.165,15.086,0l15.081-15.082C513.04,489.627,513.04,482.873,508.874,478.708z M202.667,362.667
+			c-88.229,0-160-71.771-160-160s71.771-160,160-160s160,71.771,160,160S290.896,362.667,202.667,362.667z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="javascrpt:void(0)" class="list-item">
+                            <span>
+                                <svg viewBox="0 0 24 24">
+                                    <g>
+                                        <path
+                                            d="M12 11.816c1.355 0 2.872-.15 3.84-1.256.814-.93 1.078-2.368.806-4.392-.38-2.825-2.117-4.512-4.646-4.512S7.734 3.343 7.354 6.17c-.272 2.022-.008 3.46.806 4.39.968 1.107 2.485 1.256 3.84 1.256zM8.84 6.368c.162-1.2.787-3.212 3.16-3.212s2.998 2.013 3.16 3.212c.207 1.55.057 2.627-.45 3.205-.455.52-1.266.743-2.71.743s-2.255-.223-2.71-.743c-.507-.578-.657-1.656-.45-3.205zm11.44 12.868c-.877-3.526-4.282-5.99-8.28-5.99s-7.403 2.464-8.28 5.99c-.172.692-.028 1.4.395 1.94.408.52 1.04.82 1.733.82h12.304c.693 0 1.325-.3 1.733-.82.424-.54.567-1.247.394-1.94zm-1.576 1.016c-.126.16-.316.246-.552.246H5.848c-.235 0-.426-.085-.552-.246-.137-.174-.18-.412-.12-.654.71-2.855 3.517-4.85 6.824-4.85s6.114 1.994 6.824 4.85c.06.242.017.48-.12.654z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End:: header  -->
+
+    <!--Start:: header-child  -->
+    <header id="navbar-child">
+        <div class="nav-child container">
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <div class="language">
+                    <span class="active-lang option-toggler">
+                        <i class="fa fa-language"></i>
+                        English
+                    </span>
+                    <ul class="option-list">
+                        <a href="" class="option-item">Arabic</a>
+                        <a href="" class="option-item">English</a>
+                        <a href="" class="option-item">Bangla</a>
+                        <a href="" class="option-item">Urdu</a>
+                        <a href="" class="option-item">Spanish</a>
+                        <a href="" class="option-item">China</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End:: header-child -->
+
+    <!--Start:: sidebar -->
+    <!-- 
+
+        1. sidebar-face-default  half height + full width
+        2. sidebar-face-full      full height + full width
+
+    -->
+    <div class="sidebar-backface"></div>
+    <div id="sidebar">
+        <a href="dashboard.html" class="dashboard-link active">
+            <span class="fa fa-dashboard"></span>
+            <span class="sidebar-item">Dashboard</span>
+        </a>
+
+        <div class="sidebar-list-separator"></div>
+
+        <ul class="sidebar-list">
+            <li class="list-item child-menu-btn">
+                <a href="" class="item-link">
+                    <span class="fa fa-pencil"></span>
+                    <span class="item-text">New Post</span>
+                </a>
+
+                <ul class="child-menu-list child-menu-setp-one">
+                    <li class="list-item"><a href="" class="item-link">DDos</a></li>
+                    <li class="list-item"><a href="" class="item-link">Main Style</a></li>
+                    <li class="list-item child-menu-btn">
+                        <a href="" class="item-link">Features</a>
+                        <ul class="child-menu-list child-menu-setp-two">
+                            <li class="list-item"><a href="" class="item-link">DDos</a></li>
+                            <li class="list-item"><a href="" class="item-link">Main Style</a></li>
+                            <li class="list-item"><a href="" class="item-link">Features</a></li>
+                            <li class="list-item"><a href="" class="item-link">New Style</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-item"><a href="" class="item-link">New Style</a></li>
+                </ul>
+            </li>
+            <li class="list-item">
+                <a href="" class="item-link">
+                    <span class="fa fa-book"></span>
+                    <span class="item-text">New Category</span>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="" class="item-link">
+                    <span class="fa fa-cogs"></span>
+                    <span class="item-text">Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!--End:: sidebar -->
+
+    <!--Start:: content manager-->
+    <section id="content-wrapper">
+        <div class="space-handler"></div>
+
+        <div class="container">
+            <h1 style="margin-top: 1rem; font-weight: 300;">
+                Dashboard View
+            </h1>
+        </div>
+    </section>
+    <!--End:: content manager-->
+
+
+
+    <!--Start:: Quick Panel -->
+    <div id="quick-settings">
+        <div class="quick-settings-btns">
+            <ul class="quick-settings-list">
+                <li class="toggle-quick-settings"><span class="fa fa-cogs"></span></li>
+                <li><span class="fa fa-comments"></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="quick-settings-panel">
+        <div class="quick-settings-close">
+            <span style="float: right;">&times;</span>
+        </div>
+
+        <div class="sidebar-settings">
+            <h1>Choose Sidebar</h1>
+            <p>
+                <span>Sidebar Default</span>
+                <input type="radio" name="sidebar-style" data-class="sidebar-face-default sidebar-default" />
+            </p>
+            <p>
+                <span>Sidebar Full Height</span>
+                <input type="radio" name="sidebar-style" data-class="sidebar-face-full sidebar-expand" />
+            </p>
+            <p>
+                <span>Sidebar Full Height Wrap</span>
+                <input type="radio" name="sidebar-style" data-class="sidebar-face-full sidebar-wrapped" />
+            </p>
+            <p>
+                <span>Sidebar Default Height Wrap</span>
+                <input type="radio" name="sidebar-style" data-class="sidebar-face-default sidebar-wrapped" />
+            </p>
+            <button id="apply-sidebar-setting">
+                Apply
+            </button>
+        </div>
+    </div>
+    <!--End::  Quick Panel -->
+
+    <!-- panel scripts -->
+    <script src="res/js/primary-v1.0.0.js"></script>
+    <script src="res/js/admin-v1.0.0.js"></script>
+
+    <script data-type="Essential JavaScript Code">
+        /***
+         * 
+         * @activity 
+         * Here This Script Will Done Some Action..
+         */
+
+        // new admin('.__application', {
+        //     maintance: true,
+        //     message: 'In this situation COVID-19, We all need to recognize the fact of the humanity of being...'
+        // });
+    </script>
+
+</body>
+
+</html>
